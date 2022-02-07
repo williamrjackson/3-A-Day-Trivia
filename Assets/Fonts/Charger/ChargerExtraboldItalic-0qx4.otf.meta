@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 2813287f0ae734358895ccaa1c1e5c65
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Charger
+  fontNames:
+  - Charger
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f406ec60193bf4c44879bcd4926b6fc1, type: 3}
+  - {fileID: 12800000, guid: f04a70d10656b48219a8621a981e3341, type: 3}
+  - {fileID: 12800000, guid: 868d63f7e83264a088eb5741c6ed67a6, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

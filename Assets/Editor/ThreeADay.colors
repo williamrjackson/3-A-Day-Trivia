@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12323, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ThreeADay
+  m_EditorClassIdentifier: 
+  m_Presets:
+  - m_Name: Aero Blue
+    m_Color: {r: 0.827451, g: 0.9921569, b: 0.8705882, a: 1}
+  - m_Name: Amazon
+    m_Color: {r: 0.2901961, g: 0.4862745, b: 0.3490196, a: 1}
+  - m_Name: Flirt
+    m_Color: {r: 0.6588235, g: 0.03137255, b: 0.454902, a: 1}
+  - m_Name: Eerie Black
+    m_Color: {r: 0.1333333, g: 0.1333333, b: 0.1333333, a: 1}
+  - m_Name: Lapis Lazuli
+    m_Color: {r: 0.1098039, g: 0.3647059, b: 0.6, a: 1}

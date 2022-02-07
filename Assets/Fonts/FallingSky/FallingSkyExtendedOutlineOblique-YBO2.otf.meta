@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: 2580e74f5f02943a6b0d31a28191ed4e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Falling Sky
+  fontNames:
+  - Falling Sky
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f3145f81e28014af2b322b395cb75d7f, type: 3}
+  - {fileID: 12800000, guid: 05ecd932c027646b1859f8ed25d88a8c, type: 3}
+  - {fileID: 12800000, guid: e0fdac92d0184466db3537cb62da6360, type: 3}
+  - {fileID: 12800000, guid: 24ba3ea364f664d76b9b3daf2c25b760, type: 3}
+  - {fileID: 12800000, guid: 8172f4f3553ab45359194f838701d17a, type: 3}
+  - {fileID: 12800000, guid: c0b100143b2da42e98acb374db867526, type: 3}
+  - {fileID: 12800000, guid: c3e18e6993ac445b9bfc4902ae405348, type: 3}
+  - {fileID: 12800000, guid: c425a9e9313b64a3aa5faa9e4fe05a31, type: 3}
+  - {fileID: 12800000, guid: c0e207fc52b4540daa4ab7d8ad91dd60, type: 3}
+  - {fileID: 12800000, guid: e21b8fbf0efc240b3b3bbcb271eacaec, type: 3}
+  - {fileID: 12800000, guid: b4c795cf965fe4677ac192ec6b43ca0f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

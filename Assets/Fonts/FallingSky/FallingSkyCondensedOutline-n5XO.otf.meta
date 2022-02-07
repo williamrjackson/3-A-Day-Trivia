@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 8172f4f3553ab45359194f838701d17a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Falling Sky
+  fontNames:
+  - Falling Sky
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e0fdac92d0184466db3537cb62da6360, type: 3}
+  - {fileID: 12800000, guid: c0b100143b2da42e98acb374db867526, type: 3}
+  - {fileID: 12800000, guid: c0e207fc52b4540daa4ab7d8ad91dd60, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -41,6 +41,25 @@ public class QuestionView : MonoBehaviour
     private void Start()
     {
         canvasFade.OnActivate += Activate;
+        Keyboard.Instance.OnLetter += AddText;
+        Keyboard.Instance.OnBackspace += Backspace;
+        Keyboard.Instance.OnEnter += Enter;
+    }
+
+    private void AddText(char letter)
+    {
+        inputField.text += letter;
+    }
+    private void Backspace()
+    {
+        if (inputField.text.Length < 1) return;
+        string shortened = inputField.text;
+        shortened = shortened.Substring(0, shortened.Length - 1);
+        inputField.text = shortened;
+    }
+    private void Enter()
+    {
+        SubmitAnswer();
     }
 
     private void Activate()
@@ -63,11 +82,7 @@ public class QuestionView : MonoBehaviour
 
     public void SubmitAnswer()
     {
+        if (string.IsNullOrEmpty(inputField.text)) return; 
         GameManager.Instance.ProgressQuestion(currentQuestion, inputField.text, Time.time - startTime);
-    }
-
-    public void HandleRunButtonEnabledState(string text)
-    {
-        doneButton.interactable = !string.IsNullOrEmpty(text);
     }
 }

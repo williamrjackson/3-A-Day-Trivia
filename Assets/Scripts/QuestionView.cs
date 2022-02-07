@@ -65,7 +65,6 @@ public class QuestionView : MonoBehaviour
     private void Activate()
     {
         inputField.SetTextWithoutNotify(string.Empty);
-        doneButton.interactable = false;
         Wrj.Utils.DeferredExecution(.25f, () =>
         {
             inputField.Select();

@@ -86,7 +86,7 @@ public class CanvasFade : MonoBehaviour
 
     private void Update()
     {
-        if (!Input.anyKey) return;
+        if (enterButton == null || !Input.anyKey) return;
         if (canvasGroup.alpha == 1f && enterButton.interactable && (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)))
         {
             enterButton.onClick.Invoke();
